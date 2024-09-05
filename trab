@@ -1,0 +1,55 @@
+<HTML>
+<HEAD>
+<TITLE> Viaje de Graça para o Espaço Sideral </TITLTE>
+</HEAD>
+
+<BODY BGCOLOR= "aqua">
+
+<H2>
+Preencha este formulário e Concorra a uma viagem para o Conjunto Satélite!!!
+</H2>
+<FORM METHOD="POST" ACTION= "/cgi-bin/post-query">
+Nome:
+<INPUT TYPE="Text" NAME="primeiro nome"	SIZE="30"
+MAXLENGHT="30"
+<P>
+ENDEREÇO: <INPUT> TYPE="Text" NAME="Endereço">
+</P>
+Bairro:
+<SELECT>NAME="Bairro"
+    <OPTION>Centro</OPTION>
+    <OPTION>Nazaré</OPTION>
+    <OPTION SELECTED>Batista Campos</OPTION>
+    <OPTION>Umarizal</OPTION>
+    <OPTION>Pratinha</OPTION>
+</SELECT>
+<SELECT NAME="Cidade">
+    <OPTION>Belém</OPTION>
+    <OPTION>Manaus</OPTION>
+    <OPTION SELECTED>Rio de Janeiro</OPTION>
+    <OPTION>São Luis</OPTION>
+    <OPTION>Macapá</OPTION>
+    <OPTION>Cuiabá</OPTION>
+</SELECT>
+<P>
+    CEP:
+    <INPUT TYPE="Text" NAME="CEP" Size="10">
+    <P>
+</P>
+
+Escreva aqui a sua sugestão: 
+<BR>
+<TEXTAREA NAME="critica" ROWS="3" COLS="40">
+    AQUI ENTRA TEXTO
+</TEXTAREA>
+
+<P>
+    <INPUT TYPE="checkbox" NAME="Informaçâo" CHECKED> sim, eu desejo receber mais informação sobre esse site.
+</p>
+<p>
+    <INPUT TYPE="reset">
+    <INPUT TYPE="sumbit" VALUE="Enviar">
+</FORM>
+
+</BODY>
+</HTML>
